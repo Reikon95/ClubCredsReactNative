@@ -16,6 +16,7 @@ export default function App() {
   } else {
     return (
       <SafeAreaProvider>
+        Hello World
         <Navigation colorScheme={colorScheme} />
         <StatusBar />
       </SafeAreaProvider>
